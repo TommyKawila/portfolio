@@ -4,7 +4,7 @@ var path = require("path");
  
 app.use(express.static(__dirname));
  
-// start server
+// start express server
 var server = app.listen(8000, function() {
     console.log('Express is running.');
 });
